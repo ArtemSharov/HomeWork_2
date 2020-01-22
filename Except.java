@@ -36,11 +36,12 @@ private static String[][] twoArr;
                     sum += intArr[i][j];
                 }
             }
+            System.out.println("\nСумма поделенная на 2 равна " + sum/2);
         } catch (NumberFormatException n){
             System.out.println("Строка должна содержать только цифры");
         } catch (ArrayIndexOutOfBoundsException a){
             System.out.println("Введите ровно 16 символов");
         }
-        System.out.println("\nСумма поделенная на 2 равна " + sum/2);
+
     }
 }
